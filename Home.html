@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Tourism in India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Cultural Tourism in India</h1>
+        <nav>
+            <a href="Home.html" class="active">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" style="background-image: url('images/nature.webp');">
+    <div class="hero-overlay">
+        <h2>Experience India's Rich Cultural Heritage</h2>
+        <p>Explore 5000+ years of traditions, monuments, and living history</p>
+        <button class="cta-button" onclick="document.getElementById('destinations').scrollIntoView({behavior: 'smooth'})">
+            Explore Destinations
+        </button>
+    </div>
+</section>
+
+<section class="content" id="destinations">
+    <h3>Featured Cultural Destinations</h3>
+    <p class="subtitle">Discover the magnificent heritage sites of India</p>
+
+    <div class="destinations-grid">
+        <div class="place-card" onclick="showDetails('taj')">
+            <div class="place-image-container">
+                <img src="images/taj.jpg" alt="Taj Mahal" class="place-image">
+                
+            </div>
+            <h4>Agra - Taj Mahal</h4>
+            <p class="place-preview">Symbol of Love & Mughal Architecture</p>
+            <div id="taj" class="details">
+                <p>The Taj Mahal is a UNESCO World Heritage Site and one of the Seven Wonders of the World. Built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it represents eternal love and Mughal architectural excellence.</p>
+                <p><strong>Best Time to Visit:</strong> October to March</p>
+                <p><strong>Famous For:</strong> White marble architecture, intricate inlay work, Mughal gardens</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+
+        <div class="place-card" onclick="showDetails('jaipur')">
+            <div class="place-image-container">
+                <img src="images/Pink_city.jpg" alt="Jaipur Pink City" class="place-image">
+               
+            </div>
+            <h4>Jaipur - The Pink City</h4>
+            <p class="place-preview">Royal Rajasthani Heritage</p>
+            <div id="jaipur" class="details">
+                <p>Jaipur, the capital of Rajasthan, reflects royal Rajasthani culture through magnificent forts and palaces. Home to Amer Fort, City Palace, Hawa Mahal, and vibrant markets showcasing traditional music, dance, and handicrafts.</p>
+                <p><strong>Best Time to Visit:</strong> November to February</p>
+                <p><strong>Famous For:</strong> Pink sandstone buildings, royal palaces, traditional textiles</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+
+        <div class="place-card" onclick="showDetails('varanasi')">
+            <div class="place-image-container">
+                <img src="images/Varanasi.jfif" alt="Varanasi Ghats" class="place-image">
+
+            </div>
+            <h4>Varanasi - Spiritual Capital</h4>
+            <p class="place-preview">Oldest Living City in the World</p>
+            <div id="varanasi" class="details">
+                <p>Varanasi is one of the oldest continuously inhabited cities in the world, located on the sacred River Ganga. It is famous for its ancient temples, spiritual ghats, and the mesmerizing evening Ganga Aarti rituals that attract pilgrims from around the world.</p>
+                <p><strong>Best Time to Visit:</strong> October to March</p>
+                <p><strong>Famous For:</strong> Ganga Aarti, ancient temples, spiritual experiences, silk weaving</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+
+        <div class="place-card" onclick="showDetails('hampi')">
+            <div class="place-image-container">
+                <img src="images/Hampi.jpg" alt="Hampi Ruins" class="place-image">
+                
+            </div>
+            <h4>Hampi - Ancient Ruins</h4>
+            <p class="place-preview">Vijayanagara Empire Legacy</p>
+            <div id="hampi" class="details">
+                <p>Hampi is a UNESCO World Heritage Site known for the magnificent ruins of the Vijayanagara Empire. The landscape is dotted with ancient temples, intricate stone architecture, and historical monuments that tell stories of a glorious past.</p>
+                <p><strong>Best Time to Visit:</strong> October to February</p>
+                <p><strong>Famous For:</strong> Ancient ruins, boulder landscapes, Virupaksha Temple, stone chariots</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+
+        <div class="place-card" onclick="showDetails('kerala')">
+            <div class="place-image-container">
+                <img src="images/Kerala.jfif" alt="Kerala Backwaters" class="place-image">
+                
+            </div>
+            <h4>Kerala - God's Own Country</h4>
+            <p class="place-preview">Backwaters & Cultural Arts</p>
+            <div id="kerala" class="details">
+                <p>Kerala offers a unique blend of natural beauty and cultural richness. Famous for its serene backwaters, Kathakali dance, Ayurvedic traditions, and vibrant festivals. Experience traditional houseboat cruises and witness classical art forms.</p>
+                <p><strong>Best Time to Visit:</strong> September to March</p>
+                <p><strong>Famous For:</strong> Backwaters, Kathakali, Ayurveda, temple festivals, cuisine</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+
+        <div class="place-card" onclick="showDetails('delhi')">
+            <div class="place-image-container">
+                <img src="images/Dehli.jfif" alt="Delhi Red Fort" class="place-image">
+            </div>
+            <h4>Delhi - Historic Capital</h4>
+            <p class="place-preview">Where Ancient Meets Modern</p>
+            <div id="delhi" class="details">
+                <p>Delhi, India's capital, is a perfect blend of ancient history and modern urban life. Explore Red Fort, Qutub Minar, Humayun's Tomb, India Gate, and experience the vibrant street food culture and diverse traditions.</p>
+                <p><strong>Best Time to Visit:</strong> October to March</p>
+                <p><strong>Famous For:</strong> Mughal monuments, street food, markets, museums, cultural diversity</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<section class="festivals-section">
+    <h3> Celebrate India's Vibrant Festivals</h3>
+    <div class="festivals-grid">
+        <div class="festival-card">
+            <img src="images/Diwali.jfif" alt="Diwali Festival" class="festival-image">
+            <h4>Diwali</h4>
+            <p>Festival of Lights</p>
+        </div>
+        <div class="festival-card">
+            <img src="images/Holi.jfif" alt="Holi Festival" class="festival-image">
+            <h4>Holi</h4>
+            <p>Festival of Colors</p>
+        </div>
+        <div class="festival-card">
+            <img src="images/Durga.jfif" alt="Durga Puja" class="festival-image">
+            <h4>Durga Puja</h4>
+            <p>Goddess Worship</p>
+        </div>
+        <div class="festival-card">
+            <img src="images/pongal.jfif" alt="Pongal Festival" class="festival-image">
+            <h4>Pongal</h4>
+            <p>Harvest Festival</p>
+        </div>
+    </div>
+</section>
+
+<!-- Chatbot -->
+<div id="chatbot-icon" onclick="toggleChatbot()" title="Chat with Cultural Guide">
+    🤖
+    <span class="chat-notification">Ask me!</span>
+</div>
+
+<div id="chatbot">
+    <div id="chat-header">
+        <span> Cultural Guide</span>
+        <span id="close-chat" onclick="toggleChatbot()">✖</span>
+    </div>
+    <div id="chat-body">
+        <div class="bot-message">
+            <strong>Bot:</strong> Namaste! 🙏 I am your Cultural Tourism Guide. Ask me about destinations, festivals, or Indian heritage!
+        </div>
+    </div>
+    <div id="chat-suggestions">
+        <button onclick="sendQuickReply('Tell me about Taj Mahal')">Taj Mahal</button>
+        <button onclick="sendQuickReply('What festivals are celebrated?')">Festivals</button>
+        <button onclick="sendQuickReply('Best time to visit India?')">Best Time</button>
+    </div>
+    <div id="chat-input-area">
+        <input type="text" id="userInput" placeholder="Ask about culture..." />
+        <button id="send-btn" onclick="sendMessage()">➤</button>
+    </div>
+</div>
+
+
+
+<script src="chatbot.js"></script>
+<script>
+function showDetails(id) {
+    const allDetails = document.querySelectorAll(".details");
+    const allCards = document.querySelectorAll(".place-card");
+    const clickedCard = event.currentTarget;
+    const clickedDetail = document.getElementById(id);
+    
+    allCards.forEach(card => card.classList.remove("expanded"));
+    allDetails.forEach(d => d.style.display = "none");
+    
+    if (clickedDetail.style.display !== "block") {
+        clickedDetail.style.display = "block";
+        clickedCard.classList.add("expanded");
+    }
+}
+
+function toggleChatbot() {
+    const bot = document.getElementById("chatbot");
+    const icon = document.getElementById("chatbot-icon");
+    
+    if (bot.style.display === "none" || bot.style.display === "") {
+        bot.style.display = "block";
+        icon.style.transform = "scale(0.9)";
+    } else {
+        bot.style.display = "none";
+        icon.style.transform = "scale(1)";
+    }
+}
+</script>
+
+</body>
+</html>
