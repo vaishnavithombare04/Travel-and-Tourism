@@ -24,7 +24,7 @@ A responsive 3-page static website showcasing India's cultural heritage with an 
 
 ##  Project Structure
 
-cultural-tourism-india/
+Travel/
 ├── Home.html
 ├── About.html
 ├── Contact.html
@@ -32,18 +32,18 @@ cultural-tourism-india/
 ├── chatbot.js
 ├── README.md
 └── images/
-    ├── nature.jpg
-    ├── nature2.jpg
+    ├── nature.webp
+    ├── nature2.webp
     ├── taj.jpg
     ├── pink_city.jpg
-    ├── varanasi.jpg
+    ├── varanasi.jfif
     ├── hampi.jpg
-    ├── kerala.jpg
-    ├── delhi.jpg
-    ├── diwali.jpg
-    ├── holi.jpg
-    ├── durga-puja.jpg
-    └── pongal.jpg
+    ├── kerala.jfif
+    ├── delhi.jfif
+    ├── diwali.jfif
+    ├── holi.jfif
+    ├── durga.jfif
+    └── pongal.jfif
 
 ---
 ## Chatbot Knowledge
